@@ -32,10 +32,7 @@ class HomeFragment : BaseFragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-
-
         return inflater.inflate(R.layout.fragment_home, container, false)
-
     }
 
     companion object {
@@ -87,10 +84,7 @@ class HomeFragment : BaseFragment() {
                 notesAdapter.notifyDataSetChanged()
                 return true
             }
-
         })
-
-
     }
 
 
@@ -105,9 +99,7 @@ class HomeFragment : BaseFragment() {
 
             replaceFragment(fragment,false)
         }
-
     }
-
 
     fun replaceFragment(fragment:Fragment, istransition:Boolean){
         val fragmentTransition = activity!!.supportFragmentManager.beginTransaction()

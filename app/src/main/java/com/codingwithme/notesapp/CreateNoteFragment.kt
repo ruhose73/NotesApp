@@ -428,15 +428,12 @@ class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,Ea
     }
 
     override fun onPermissionsGranted(requestCode: Int, perms: MutableList<String>) {
-
     }
 
     override fun onRationaleDenied(requestCode: Int) {
-
     }
 
     override fun onRationaleAccepted(requestCode: Int) {
-
     }
 
 }
