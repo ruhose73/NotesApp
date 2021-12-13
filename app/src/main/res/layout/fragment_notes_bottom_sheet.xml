@@ -276,7 +276,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:textColor="@color/ColorWhite"
             android:textSize="@dimen/_12ssp"
-            android:text="Delete Note"
+            android:text="@string/delete_note"
             android:fontFamily="@font/manrope_bold"
             android:maxLines="1"
             android:ellipsize="end"

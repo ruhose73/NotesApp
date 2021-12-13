@@ -14,4 +14,5 @@
     <string name="add_image">Добавить изображение</string>
     <string name="add_web_link">Добавить ссылку</string>
     <string name="pick_color">Выбрать цвет</string>
+    <string name="delete_note">Удалить заметку</string>
 </resources>
